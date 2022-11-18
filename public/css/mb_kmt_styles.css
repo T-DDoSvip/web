@@ -1,0 +1,219 @@
+@media (max-width: 1600px) {}
+
+@media (max-width: 1440px) {}
+
+@media (max-width: 1140px) {}
+
+@media (max-width: 1025px) {
+    .minimal-menu>ul>li {
+        padding: 0px 30px !important;
+    }
+    .wrap_news_left {
+        margin-bottom: 20px;
+    }
+    .img_news_left_home img {
+        width: 100%;
+        max-height: inherit;
+    }
+    .wrap_logo {
+        text-align: center;
+    }
+    .wrap_logo img {
+        height: 75px;
+    }
+    .wrap_name {
+        text-align: center;
+        padding: 0px;
+    }
+    #wrap_search {
+        clear: both;
+        display: table;
+        width: 80%;
+        height: 31px;
+        float: none;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #wrap_search input:nth-child(1) {
+        float: none;
+        width: 100%;
+        padding-left: 0px;
+        margin-right: 0px;
+        font-size: 14px;
+        text-align: center;
+    }
+    #wrap_search input:nth-child(2) {
+        display: none;
+    }
+    #wrap_phone {
+        text-align: center;
+        width: 100%;
+        margin: 10px auto;
+    }
+    #wrap_block_4 .row div:nth-child(1) {
+        font-size: 12px;
+    }
+    .wrap_item_home .wrap_item:nth-last-child(1) {
+        display: none;
+    }
+    .block_icon {
+        width: 200px;
+        height: 260px;
+    }
+    .wrap_social_f {
+        text-align: left;
+    }
+}
+
+@media (max-width: 812px) {
+    #wrap_block_4 select {
+        margin-bottom: 5px;
+    }
+    .wrap_item_home .wrap_item:nth-last-child(1) {
+        display: inline-block;
+    }
+    .wrap_left {
+        display: none;
+    }
+}
+
+@media (max-width: 769px) {
+    .minimal-menu>ul>li {
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+}
+
+@media (max-width: 736px) {}
+
+@media (max-width: 667px) {}
+
+@media (max-width: 640px) {}
+
+@media (max-width: 600px) {}
+
+@media (max-width: 568px) {
+    .tilte_news {
+        font-size: 26px;
+    }
+    #wrap_block_9 h6 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .list_agency li {
+        width: 100%;
+    }
+    .img_agency {
+        width: 100%;
+        height: auto;
+        float: none;
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+    .img_agency img {
+        width: 100%;
+    }
+    .kmt-btn-slider {
+        display: none !important;
+    }
+    .title_pcl span {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .wrap_news_left {
+        display: none;
+    }
+    .img_news_right {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 10px;
+        height: auto;
+        float: none;
+    }
+    .img_news_right img {
+        width: 100%;
+        height: auto;
+    }
+    .row {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .wrap_icon,
+    .wrap_news {
+        width: 100%;
+    }
+    .block_icon {
+        width: 100%;
+        height: auto;
+    }
+    #wrap_img_dt {
+        width: 100%;
+        height: auto !important;
+        background: #fff;
+    }
+    #wrap_img_dt img {
+        max-width: 100%;
+        max-height: inherit;
+    }
+    .block_item {
+        width: 175px;
+        height: 243px;
+        overflow: hidden;
+        border: 1px solid #ccc;
+        background: #fff;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .img_item {
+        width: 175px;
+        height: 175px;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        background: #fff;
+    }
+    .img_item img {
+        max-width: 170px;
+        max-height: 170px;
+    }
+    .block_item h3 {
+        height: 65px;
+        padding: 10px 0px;
+        background: #e3e3e3;
+    }
+}
+
+@media (max-width: 414px) {}
+
+@media (max-width: 375px) {}
+
+@media (max-width: 360px) {}
+
+@media (max-width: 320px) {
+    .block_item {
+        width: 150px;
+        height: 215px;
+    }
+    .img_item {
+        width: 150px;
+        height: 150px;
+    }
+    .img_item img {
+        max-width: 145px;
+        max-height: 145px;
+    }
+    .block_item h3 {
+        height: 65px;
+        padding: 10px 0px;
+        background: #e3e3e3;
+    }
+}
+
+@-moz-document url-prefix() {
+    fieldset {
+        display: table-cell;
+    }
+}
